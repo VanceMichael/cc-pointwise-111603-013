@@ -1,20 +1,18 @@
 [
   {
-    "sourceId": "event-registration-demo-1",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:00:00Z",
-    "label": "报名记录",
+    "sourceId": "R1",
+    "source": "展会报名同步台",
+    "observedAt": "2026-11-16T08:00:00Z",
+    "label": "Local Attendee",
     "attributes": {
-      "sample": true
-    }
-  },
-  {
-    "sourceId": "event-registration-demo-2",
-    "source": "sample-source",
-    "observedAt": "2026-11-16T09:05:00Z",
-    "label": "报名记录 2",
-    "attributes": {
-      "sample": true
+      "registrationId": "R1",
+      "partner": "P1",
+      "session": "hall-a",
+      "personRef": "person-1",
+      "name": "Local Attendee",
+      "revision": 1,
+      "status": "registered",
+      "modifiedAt": "2026-11-16T08:00:00Z"
     }
   }
 ]

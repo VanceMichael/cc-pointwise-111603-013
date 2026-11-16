@@ -1,0 +1,30 @@
+{
+  "stages": {
+    "opening": {
+      "routes": {
+        "/partners/P1/roster": {
+          "contentType": "text/html; charset=utf-8",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"registrationId\": \"R1\", \"partner\": \"P1\", \"session\": \"hall-a\", \"personRef\": \"person-1\", \"name\": \"Local Attendee\", \"revision\": 1, \"status\": \"registered\", \"modifiedAt\": \"2026-11-16T08:00:00Z\"}</script></body></html>",
+          "etag": "\"opening\""
+        },
+        "/partners/P2/roster": {
+          "contentType": "text/html",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"registrationId\": \"X9\", \"partner\": \"P2\", \"session\": \"hall-a\", \"personRef\": \"person-1\", \"name\": \"Local Attendee\", \"revision\": 1, \"status\": \"registered\", \"modifiedAt\": \"2026-11-16T08:00:00Z\"}</script></body></html>"
+        }
+      }
+    },
+    "updated": {
+      "routes": {
+        "/partners/P1/roster": {
+          "contentType": "text/html; charset=utf-8",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"registrationId\": \"R1\", \"partner\": \"P1\", \"session\": \"hall-a\", \"personRef\": \"person-1\", \"name\": \"Local Attendee Updated\", \"revision\": 2, \"status\": \"cancelled\", \"modifiedAt\": \"2026-11-16T09:00:00Z\"}</script></body></html>",
+          "etag": "\"updated\""
+        },
+        "/partners/P2/roster": {
+          "contentType": "text/html",
+          "body": "<!doctype html><html><body><script type=\"application/json\" class=\"source-record\">{\"registrationId\": \"X9\", \"partner\": \"P2\", \"session\": \"hall-a\", \"personRef\": \"person-1\", \"name\": \"Local Attendee\", \"revision\": 1, \"status\": \"registered\", \"modifiedAt\": \"2026-11-16T08:00:00Z\"}</script></body></html>"
+        }
+      }
+    }
+  }
+}

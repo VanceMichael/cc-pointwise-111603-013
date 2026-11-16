@@ -1,0 +1,12 @@
+[
+  {
+    "session": "hall-a",
+    "confirmedAt": "2026-11-16T08:30:00Z",
+    "registrations": [
+      "P1:R1"
+    ],
+    "attendanceEvents": [
+      "entry-1"
+    ]
+  }
+]
