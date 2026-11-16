@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "event-registration-demo-1",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:00:00Z",
+    "label": "报名记录",
+    "attributes": {
+      "sample": true
+    }
+  },
+  {
+    "sourceId": "event-registration-demo-2",
+    "source": "sample-source",
+    "observedAt": "2026-11-16T09:05:00Z",
+    "label": "报名记录 2",
+    "attributes": {
+      "sample": true
+    }
+  }
+]
