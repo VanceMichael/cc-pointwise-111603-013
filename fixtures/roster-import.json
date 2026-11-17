@@ -1,0 +1,32 @@
+[
+  {
+    "registrationId": "R1",
+    "partner": "P1",
+    "session": "hall-a",
+    "personRef": "person-1",
+    "name": "Local Attendee",
+    "revision": 1,
+    "status": "registered",
+    "modifiedAt": "2026-11-16T08:00:00Z"
+  },
+  {
+    "registrationId": "R2",
+    "partner": "P1",
+    "session": "hall-a",
+    "personRef": "person-2",
+    "name": "Second Guest",
+    "revision": 1,
+    "status": "registered",
+    "modifiedAt": "2026-11-16T08:05:00Z"
+  },
+  {
+    "registrationId": "X9",
+    "partner": "P2",
+    "session": "hall-a",
+    "personRef": "person-1",
+    "name": "Local Attendee",
+    "revision": 1,
+    "status": "registered",
+    "modifiedAt": "2026-11-16T08:00:00Z"
+  }
+]

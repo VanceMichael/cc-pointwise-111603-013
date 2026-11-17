@@ -1,5 +1,6 @@
 import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
-import { dirname } from 'node:path';
+import { dirname, basename } from 'node:path';
+import { randomUUID } from 'node:crypto';
 
 export class RecordRepository {
   constructor(path) { this.path = path; }
@@ -17,7 +18,7 @@ export class RecordRepository {
 
   async replace(records) {
     await mkdir(dirname(this.path), { recursive: true });
-    const temporary = `${this.path}.${process.pid}.tmp`;
+    const temporary = `${this.path}.${basename(this.path)}.${process.pid}.${randomUUID()}.tmp`;
     await writeFile(temporary, `${JSON.stringify({ records }, null, 2)}\n`, { flag: 'wx' });
     await rename(temporary, this.path);
   }

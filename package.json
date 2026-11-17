@@ -7,6 +7,7 @@
     "test": "node --test",
     "start": "node src/cli.js",
     "demo": "node src/demo.js",
+    "demo:reconciliation": "node src/demo-reconciliation.js",
     "acceptance": "node src/acceptance.js"
   },
   "engines": {
